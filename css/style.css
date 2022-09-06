@@ -13,10 +13,14 @@ img {
 body {
   color: #444;
   font-size: 1.6rem;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gentium Book Basic', sans-serif;
 }
 p {
   margin-bottom: .67em;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 nav, footer {
   background-color: #444;
@@ -28,6 +32,8 @@ footer {
 }
 /*-- Main Menu Styles--*/
 nav ul {
+  flex-direction: row;
+  
   list-style: none;
   padding: 1em;
 }
